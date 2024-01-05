@@ -1,10 +1,7 @@
 <script >
     import '../lib/blockrain/blockrain.css'
      const blockrain = () => import('$lib/blockrain/blockrain.jquery.min.js')
-    
-    // window.Jquery = 'hello'
-
-    // console.log(`%cRei: window`, 'background: #a53d63; color: white; font-size: 18px', window)
+ 
     const click = async () => {
         await blockrain();
         window.$('.game').blockrain()
